@@ -8,12 +8,13 @@
     <title>UNLIMIT-APP</title>
     <!-- Logo tab browser -->
     <link rel="shoutcut icon" href="images/logo-tab.png">
+    <link rel="shoutcut icon" href="../images/logo-tab.png">
     <!-- link to Css style file index -->
     <link rel="stylesheet" href="css/index-style.css">
     <!-- link to Css style file home -->
     <link rel="stylesheet" href="../css/home-style.css">
     <!-- link icon  -->
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     

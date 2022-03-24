@@ -9,14 +9,58 @@ body{
 
 /* Style logo home page */
 .logo img{
-    width: 40%;
-    padding: 0%;
+    width: 20%;
+    border-radius: 60px;
 }
 
 /* display flex in home page */
-.logo {
+.logo,nav,.pages {
     display: flex;
 }
-.logo{
-    background: blueviolet;
+
+/* justify content centre and align centre */
+.pages{
+    justify-content: center;
+    align-items: center;
 }
+
+
+nav{
+    background: rgb(141, 2, 122);
+    padding: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.logo a{
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* Color #fff */
+.logo a,.pages a{
+    color: #fff;
+}
+
+/* Background color hover  */
+.active-on,.pages a:hover{
+    background: rgb(116, 1, 100);
+}
+
+/* Home page style */
+
+.pages a{
+    padding: 9px;
+    margin: 0 70px;
+    border-radius: 10px;
+}
+
+.active-on{
+    border-bottom: 3px solid #fff;
+}
+
+/* End nav bar style */
+
+
+
+
+
