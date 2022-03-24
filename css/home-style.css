@@ -1,0 +1,22 @@
+/* Stye font all pages */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* body style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style logo home page */
+.logo img{
+    width: 40%;
+    padding: 0%;
+}
+
+/* display flex in home page */
+.logo {
+    display: flex;
+}
+.logo{
+    background: blueviolet;
+}

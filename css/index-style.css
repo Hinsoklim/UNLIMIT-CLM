@@ -1,0 +1,107 @@
+/* Stye font all pages */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* body style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background:rgb(247, 233, 245) ;
+}
+
+/* display flex */
+.container-login,.title-login,.complate-to-login,.login-form .forgot-password,.create-user{
+    display: flex;
+}
+
+.container-login{
+    padding: 0px;
+    box-sizing: border-box;
+    height: 70vh;
+    margin: 20px 40px;
+}
+
+/* text-align center */
+.title-logo p,.title-logo h1,.login-form h3{
+    text-align: center;
+}
+
+/* justify-content center and align-item center */
+.title-login,.complate-to-login,.login-form .forgot-password,.create-user{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.login-create{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: #fff;
+}
+/* style input in form login */
+
+.login-form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.login-form input:focus{
+    outline: 1px solid blue;
+}
+
+
+.login-form input[type="submit"]{
+    cursor: pointer;
+    font-size: large;
+    background: rgb(19, 2, 173);
+    border: none;
+}
+
+.login-form input[type="submit"]:hover{
+    background: rgb(23, 2, 206);
+}
+
+/* color font #fff*/
+.login-form input[type="submit"],.create-user a{
+    color: #fff;
+}
+
+.title-login h1,.login-form h3{
+    color: rgb(141, 2, 122);
+}
+.title-logo h1{
+    font-size: 6rem;
+    margin: 0;
+    font-style: oblique;
+}
+
+
+/* border-redius 5px */
+.login-form input[type="submit"],.create-user a,.login-form input,.login-form{
+    border-radius: 5px;
+}
+
+/* button create new user style */
+.create-user a{
+    background:rgb(141, 2, 122);
+    padding: 10px;
+    text-decoration: none;
+}
+.create-user a:hover{
+    background:rgb(116, 1, 100) ;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: blue;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
