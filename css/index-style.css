@@ -49,7 +49,7 @@ body{
 }
 
 .login-form input:focus{
-    outline: 1px solid blue;
+    outline: 1px solid rgb(141, 2, 122);
 }
 
 
@@ -102,6 +102,21 @@ body{
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Responsive Login page */
+
+/* Screen 1024 */
+@media(max-width:850px){
+    .container-login{
+        flex-wrap: wrap;
+    }
+    .complate-to-login{
+        margin-left: 21vw;
+    }
+    .title-login{
+        margin-left: 11vw;
+    }
+}
 
 
 

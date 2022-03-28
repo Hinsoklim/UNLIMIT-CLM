@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="pages">
-        <a href="home.php" class="active-on"><i class='fas fa-home' style='font-size:24px'></i></a>
+        <a href="home.php"><i class='fas fa-home' style='font-size:24px'></i></a>
         <a href="movie.php"><i class='fas fa-photo-video' style='font-size:24px'></i></a>
         <a href="add-friend.php"><i class='fas fa-user-plus' style='font-size:24px'></i></a>
         <a href="profile.php"><i class='fas fa-user-alt' style='font-size:24px'></i></a>
@@ -40,7 +40,7 @@
             <a href="post-video.php"><i class='fas fa-file-video' style='font-size:24px'></i>Post Video</a>
         </div>
         <div class="side-bar-manu">
-            <a href="your-friend.php"><i class='fas fa-user-friends' style='font-size:24px'></i>Your Friends</a>
+            <a href="your-friend.php" class="active-sidebar"><i class='fas fa-user-friends' style='font-size:24px'></i>Your Friends</a>
         </div>
         <div class="side-bar-manu">
             <a href="shop.php"><i class='fas fa-shopping-cart' style='font-size:24px'></i>Shops</a>
@@ -53,9 +53,10 @@
         </div>
     </div>
     <div class="main-container">
-        <h1>See All Post</h1>
+        <h1>Friend page</h1>
     </div>
 </div>
+
 
 <!-- html footer -->
 <?php require_once "../includes/footer.php";?>

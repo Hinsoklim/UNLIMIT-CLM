@@ -11,7 +11,7 @@
     <div class="pages">
         <a href="home.php"><i class='fas fa-home' style='font-size:24px'></i></a>
         <a href="movie.php"><i class='fas fa-photo-video' style='font-size:24px'></i></a>
-        <a href="add-friend.php"><i class='fas fa-user-friends' style='font-size:24px'></i></a>
+        <a href="add-friend.php"><i class='fas fa-user-plus' style='font-size:24px'></i></a>
         <a href="profile.php"><i class='fas fa-user-alt' style='font-size:24px'></i></a>
         <a href="task.php"><i class='fas fa-tasks' style='font-size:24px'></i></a>
         <a href="setting.php" class="active-on"><i class='fas fa-align-justify' style='font-size:24px'></i></a>
